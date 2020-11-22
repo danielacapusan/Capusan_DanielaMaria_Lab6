@@ -20,8 +20,7 @@ namespace Capusan_DanielaMaria_Lab6
     }
     public class StringMinLengthValidator : ValidationRule
     {
-        public override ValidationResult Validate(object value,
-        System.Globalization.CultureInfo cultureinfo)
+        public override ValidationResult Validate(object value,System.Globalization.CultureInfo cultureinfo)
         {
             string aString = value.ToString();
             if (aString.Length < 3)
